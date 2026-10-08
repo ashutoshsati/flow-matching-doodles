@@ -1,0 +1,6 @@
+configuration,checkpoint_step,euler_steps,network_evaluations,n_images,sampling_seconds,recognisability,recognisability_cat,recognisability_fish,recognisability_butterfly,grey_pixel_share,diversity
+step6000_euler2,6000,2,2,300,0.1,0.947,0.85,1.0,0.99,0.187,14.59
+step6000_euler5,6000,5,5,300,0.21,0.97,0.95,0.96,1.0,0.119,20.14
+step6000_euler10,6000,10,10,300,0.37,0.947,0.95,0.9,0.99,0.111,21.78
+step6000_euler20,6000,20,20,300,0.74,0.947,0.96,0.89,0.99,0.109,22.45
+step6000_euler50,6000,50,50,300,1.89,0.94,0.96,0.87,0.99,0.107,22.79

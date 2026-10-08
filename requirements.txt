@@ -1,0 +1,9 @@
+# Packages imported by the notebook.
+# The Colab run used PyTorch 2.11. The exact versions of every package
+# from that run are saved in partC_outputs/run_info.json. Copy them here
+# (for example numpy==x.y.z) if you want fully pinned versions.
+
+torch==2.11.*
+numpy
+pandas
+matplotlib

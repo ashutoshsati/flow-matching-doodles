@@ -1,0 +1,18 @@
+# Quick, Draw! data (large; the notebook downloads it)
+data/
+*.npy
+*.npz
+
+# Secrets and tokens
+.env
+*.token
+credentials.json
+
+# Python and Jupyter clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Operating system clutter
+.DS_Store
+Thumbs.db

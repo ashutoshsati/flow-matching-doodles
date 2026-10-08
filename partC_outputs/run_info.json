@@ -1,0 +1,51 @@
+{
+  "classes": [
+    "cat",
+    "fish",
+    "butterfly"
+  ],
+  "seed": 6010,
+  "train_drawings": 15000,
+  "held_out_drawings": 3000,
+  "image_size": "28x28 grayscale, scaled to [-1, 1], no augmentation",
+  "model": "small U-Net velocity network, class-conditional",
+  "trainable_parameters": 1148033,
+  "optimiser": "Adam",
+  "learning_rate": 0.0003,
+  "batch_size": 128,
+  "total_steps": 6000,
+  "epochs_equivalent": 51.2,
+  "checkpoint_steps": [
+    100,
+    500,
+    2000,
+    6000
+  ],
+  "training_seconds_at_checkpoint": {
+    "100": 4.7,
+    "500": 23.5,
+    "2000": 93.0,
+    "6000": 285.5
+  },
+  "baseline_sampler": "Euler, 50 steps",
+  "ode_steps_compared": [
+    2,
+    5,
+    10,
+    20,
+    50
+  ],
+  "eval_seeds": "0 to 99 (same noise reused for every class and configuration)",
+  "classifier_accuracy_on_held_out": 0.951,
+  "real_grey_pixel_share": 0.102,
+  "real_diversity": 23.21,
+  "hardware": "Tesla T4",
+  "device": "cuda",
+  "versions": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu130",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.0"
+  }
+}
